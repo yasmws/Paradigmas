@@ -14,3 +14,10 @@ type String = [Char]
 (:) :: Bool -> [Bool] -> [Bool]
 (:) :: t -> [t] -> [t]
 
+-- funções usando listas? 
+-- caso base  - lista vazia
+-- caso recursivo - lista tem cabeça e cauda
+
+
+
+

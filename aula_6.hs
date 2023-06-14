@@ -50,3 +50,45 @@ emprestado bd lv = emprestimos bd lv /= []
 
 
 --devolver :: BancoDados -> Pessoa -> Livro -> BancoDados
+
+---------------------
+
+-- uma funcao de alta ordem
+
+applyBinOper:: (t-> t-> t) -> t -> t -> t
+applyBinOper f x y = f x y 
+-- applyBinOper (++) 22 55 = 77
+
+--funcoes de mapeamento 
+
+double :: [Int] -> [Int]
+double [] = []
+double (x:xs) = (2*x) : double xs
+
+sqrList :: [Int] -> [Int]
+sqrList [] = []
+sqrList (a:xs)  = (a*a) : sqrList xs
+
+map_1 :: (t->u) -> [t] -> [u]
+map_1 f [] = []
+map_1 f (x:xs) = f x : map_1 f xs
+
+doubleList xs = map_1 times2 xs
+sqrList xs = map_1 sqr xs
+
+seconds :: [(t,u)] -> [(u)]
+
+-- por que usar funções de alta ordem?
+--facilitam modificações
+--forma natural de expressar computações assíncronas
+--aumentam reuso de definições/código
+        - ex. usar a funcao map p ara transformar os elementos de uma lista de diferentes formas
+
+
+
+
+
+
+
+
+

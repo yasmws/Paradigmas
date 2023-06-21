@@ -12,6 +12,5 @@ mul2 [] (x:xs) = (0 : (mul2 [] xs))
 mul2 (x:xs) [] = (0 : (mul2 xs []))
 mul2 (a:as) (b:bs) = (loop a b) : (mul2 as bs)   
 
-
 loop :: Int -> Int -> Int
 loop a b = a * b 

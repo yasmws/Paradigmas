@@ -1,0 +1,11 @@
+A - A. Soma seletiva - b.hs
+B - B. Fatura do cartão - 
+C - C.HexaDecToBin - 
+D - D.Lista de múltiplos -
+E - E.Est da fatura do cartão - 
+F - F. Remova e divida - 
+G - G.SomarListas - 
+H - H. Multiplicação de lista - 
+I - I. Decifre o enigma
+J - 
+K - 

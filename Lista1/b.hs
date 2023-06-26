@@ -1,3 +1,4 @@
+--A. Soma seletiva
 import Data.Char
 
 main = do

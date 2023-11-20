@@ -26,7 +26,7 @@ sumSquare lista = foldr (+) 0 (sqrList lista)
 
 filterGTZero [Int] -> Int
 filterGTZerolista = filter gtZero lista
-    where gtZero x = (x > 0)
+    where gtZero x = (x >0)
 
 
 
